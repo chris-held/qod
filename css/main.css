@@ -1,0 +1,30 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 900;
+}
+
+blockquote cite {
+	font-style: italic;
+}
+
+.brand a {
+	color: #999;
+	text-decoration: none;
+	font-size: 48px;
+}
+
+textarea, input[type="text"] {
+	max-width: 300px;
+	margin-bottom: 15px;
+}
+
+.ng-dirty.ng-invalid {
+	border-color: red;
+}
+
+.ng-dirty.ng-valid {
+	border-color: green;
+}

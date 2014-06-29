@@ -1,0 +1,13 @@
+<h2>Your Quote of the Day...</h2>
+<div ng-controller="QuoteController as quoteCtrl">
+	<blockquote ng-show="{{quoteCtrl.quote}}">
+		<p>
+			{{quoteCtrl.quote.text}}
+		</p>
+		<footer>
+			<cite>
+				{{quoteCtrl.quote.author}}
+			</cite>
+		</footer>
+	</blockquote>
+</div>

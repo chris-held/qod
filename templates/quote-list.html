@@ -1,0 +1,17 @@
+<h2>All the Quotes</h2>
+<div ng-controller="QuoteListController as quoteListCtrl">
+	<div class="row quote-list">
+		<div class="col-md-4" ng-repeat="quote in quoteListCtrl.quotes">
+			<blockquote>
+				<p>
+					{{quote.text}}
+				</p>
+				<footer>
+					<cite>
+						{{quote.author}}
+					</cite>
+				</footer>
+			</blockquote>
+		</div>
+	</div>
+</div>

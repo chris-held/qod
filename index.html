@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="qod">
+	<head>
+		<!-- css -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,900,400italic' rel='stylesheet' type='text/css'>
+    <!-- 3rd party stuff -->
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/angular-route.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="js/underscore-1.6.0.min.js"></script>
+    <!-- app code -->
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/quote.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<h1 class="brand"><a href="" ng-href="#">QOD</a></h1>
+				<div ng-view></div>
+			</div>
+			<a href="" ng-href="#/quotes">Browse Quotes</a> or <a href="" ng-href="#/add">Add Another Quote</a>
+		</div>
+	</body>
+</html?

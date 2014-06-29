@@ -1,0 +1,12 @@
+<h2>Add a New Quote</h2>
+<div ng-controller="QuoteFormController as quoteFormCtrl">
+	<form novalidate>
+		<div class="form-group">
+				<label for="quote">Your Quote</label>
+				<textarea id="quote" class="form-control" rows="5" required></textarea>
+				<label for="author">The Author</label>
+				<input id="author" class="form-control" type="text" required></input>
+				<button value="Add This Quote" class="btn btn-large btn-primary" type="submit"> Add This Quote</button>
+		</div>
+	</form>
+</div>
